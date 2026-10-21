@@ -34,13 +34,17 @@
             <groupId>io.agentscope</groupId>
             <artifactId>agentscope-harness</artifactId>
             <version>${agentscope.version}</version>
-            <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>io.agentscope</groupId>
             <artifactId>agentscope-extensions-model-openai</artifactId>
             <version>${agentscope.version}</version>
             <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-core</artifactId>
+            <version>5.8.43</version>
         </dependency>
     </dependencies>
 
